@@ -30,7 +30,6 @@
 		8271379C1C63ABFD00354E42 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B31988211AB7849400B0A900 /* FBSnapshotTestCase.m */; };
 		8271379D1C63ABFD00354E42 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CBB39C1AEE013900B6ADBA /* FBSnapshotTestCasePlatform.m */; };
 		8271379E1C63ABFD00354E42 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31988231AB7849400B0A900 /* FBSnapshotTestController.m */; };
-		8271379F1C63AC0000354E42 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D698F41B204E120005CAC9 /* SwiftSupport.swift */; };
 		827137A01C63AC0700354E42 /* square_with_pixel.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C2CD611B1F399A00669887 /* square_with_pixel.png */; };
 		827137A11C63AC0900354E42 /* square_with_text.png in Resources */ = {isa = PBXBuildFile; fileRef = B32447D91AB78B5E00B1D6FF /* square_with_text.png */; };
 		827137A21C63AC0D00354E42 /* square-copy.png in Resources */ = {isa = PBXBuildFile; fileRef = B32447DA1AB78B5E00B1D6FF /* square-copy.png */; };
@@ -50,7 +49,6 @@
 		BC45D5211C2AEFCE007C72F3 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = BC45D51F1C2AEFCE007C72F3 /* UIApplication+StrictKeyWindow.h */; };
 		BC45D5221C2AEFCE007C72F3 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BC45D5201C2AEFCE007C72F3 /* UIApplication+StrictKeyWindow.m */; };
 		E5C2CD621B1F399A00669887 /* square_with_pixel.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C2CD611B1F399A00669887 /* square_with_pixel.png */; };
-		F0D698F51B204E120005CAC9 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D698F41B204E120005CAC9 /* SwiftSupport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,7 +95,6 @@
 		BC45D51F1C2AEFCE007C72F3 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		BC45D5201C2AEFCE007C72F3 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		E5C2CD611B1F399A00669887 /* square_with_pixel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square_with_pixel.png; sourceTree = "<group>"; };
-		F0D698F41B204E120005CAC9 /* SwiftSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSupport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,7 +178,6 @@
 				13CBB39C1AEE013900B6ADBA /* FBSnapshotTestCasePlatform.m */,
 				B31988221AB7849400B0A900 /* FBSnapshotTestController.h */,
 				B31988231AB7849400B0A900 /* FBSnapshotTestController.m */,
-				F0D698F41B204E120005CAC9 /* SwiftSupport.swift */,
 				B31987F31AB782D000B0A900 /* Supporting Files */,
 			);
 			name = Sources;
@@ -423,7 +419,6 @@
 				8271379C1C63ABFD00354E42 /* FBSnapshotTestCase.m in Sources */,
 				827137951C63ABF400354E42 /* UIImage+Compare.m in Sources */,
 				827137971C63ABF400354E42 /* UIImage+Snapshot.m in Sources */,
-				8271379F1C63AC0000354E42 /* SwiftSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +440,6 @@
 				133564191B59C3F500A4E4BF /* UIImage+Diff.m in Sources */,
 				1335641B1B59C3F500A4E4BF /* UIImage+Snapshot.m in Sources */,
 				B319882B1AB7849400B0A900 /* FBSnapshotTestController.m in Sources */,
-				F0D698F51B204E120005CAC9 /* SwiftSupport.swift in Sources */,
 				13CBB39E1AEE013900B6ADBA /* FBSnapshotTestCasePlatform.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
